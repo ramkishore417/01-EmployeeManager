@@ -12,7 +12,7 @@ import java.util.UUID;
 @Service
 public class EmployeeService
 {
-    private final EmployeeRepo employeeRepo1;
+    private final EmployeeRepo employeeRepo;
 
     @Autowired
     public EmployeeService(EmployeeRepo employeeRepo) {
