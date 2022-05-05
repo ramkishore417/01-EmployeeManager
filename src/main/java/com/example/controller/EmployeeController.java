@@ -1,10 +1,10 @@
-package com.practice.controller;
+package com.example.controller;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.practice.models.Employee;
-import com.practice.services.EmployeeService;
+import com.example.models.Employee;
+import com.example.services.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
