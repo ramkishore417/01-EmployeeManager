@@ -14,7 +14,7 @@ public class EmployeeManagerWebappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeManagerWebappApplication.class, args);
-
+		System.out.println("Hello");
 	}
 
 	@Bean
