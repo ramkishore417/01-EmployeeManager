@@ -10,10 +10,10 @@ import org.springframework.web.filter.CorsFilter;
 import java.util.Arrays;
 
 @SpringBootApplication
-public class EmployeeManagerWebappApplication {
+public class EmployeeManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeManagerWebappApplication.class, args);
+		SpringApplication.run(EmployeeManagerApplication.class, args);
 
 	}
 
