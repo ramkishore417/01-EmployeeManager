@@ -12,9 +12,9 @@ import java.util.UUID;
 @Service
 public class EmployeeService
 {
-    private final EmployeeRepo employeeRepo;
-
     @Autowired
+    private final EmployeeRepo employeeRepo;
+    
     public EmployeeService(EmployeeRepo employeeRepo) {
         this.employeeRepo = employeeRepo;
     }
